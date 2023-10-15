@@ -20,7 +20,7 @@ async def start(client: pr0fess0r_99, message: Message):
       InlineKeyboardButton("Updates", url="https://t.me/T4TSA"),
       InlineKeyboardButton("Support", url="https://t.me/IrisChat0")
       ],[
-      InlineKeyboardButton("Join", url=f"IrisMoviesCh")
+      InlineKeyboardButton("Join", url="https://t.me/Irismoviesch")
       ]]
     await message.reply_text(text="**𝙷𝙴𝙻𝙻𝙾...⚡\n\nBot of @IrisMoviesCh and @Films_433.\nDont forget to join \nWORKING NOW**", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview=True)
 
@@ -33,5 +33,5 @@ async def autoapprove(client: pr0fess0r_99, message: ChatJoinRequest):
     if APPROVED == "on":
         await client.send_message(chat_id=chat.id, text=TEXT.format(mention=user.mention, title=chat.title))       
 
-print("𝗕𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝗢𝗽𝘂𝘀𝗧𝗲𝗰𝗵𝘇")
+print("𝗕𝗼𝘁 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗣𝗹𝗲𝗮𝘀𝗲 join @T4TSA")
 pr0fess0r_99.run()
